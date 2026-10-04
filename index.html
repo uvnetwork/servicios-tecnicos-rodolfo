@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO LOCAL ===== -->
+  <title>Rodolfo Peña | Servicios Técnicos en Alcorcón y Madrid — Electricidad, CCTV, Redes y Manitas</title>
+  <meta name="description" content="Equipo de servicios técnicos profesionales en Alcorcón y zona sur de Madrid. Electricidad, cámaras de seguridad CCTV, redes y telecomunicaciones, y servicios de manitas para el hogar. Presupuestos sin compromiso." />
+  <meta name="keywords" content="electricista Alcorcón, cámaras seguridad Madrid, CCTV Alcorcón, instalación racks red, manitas Madrid, servicios técnicos zona sur Madrid, boletines eléctricos" />
+  <meta name="author" content="Rodolfo Peña - Servicios Técnicos" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Geolocalización para SEO local -->
+  <meta name="geo.region" content="ES-M" />
+  <meta name="geo.placename" content="Alcorcón, Madrid" />
+
+  <!-- Open Graph (compartir en redes) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rodolfo Peña | Servicios Técnicos en Alcorcón y Madrid" />
+  <meta property="og:description" content="Electricidad, CCTV y seguridad, redes y manitas del hogar. Presupuestos sin compromiso en Alcorcón y zona sur de Madrid." />
+  <meta property="og:url" content="https://rodolfo.uvnet.es" />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Datos estructurados: negocio local (mejora SEO local en Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Rodolfo Peña - Servicios Técnicos",
+    "description": "Servicios técnicos profesionales: electricidad, CCTV, redes y manitas del hogar en Alcorcón y Madrid.",
+    "telephone": "+34603122600",
+    "email": "rodolfo@uvnet.es",
+    "url": "https://rodolfo.uvnet.es",
+    "areaServed": ["Alcorcón", "Madrid", "Zona sur de Madrid"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Alcorcón", "addressRegion": "Madrid", "addressCountry": "ES" }
+  }
+  </script>
+
+  <!-- Tailwind CSS (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Iconos Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+  <!-- ================= CABECERA / NAVEGACIÓN FIJA ================= -->
+  <header class="fixed top-0 inset-x-0 z-50 bg-slate-900/95 backdrop-blur border-b border-slate-800">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3" aria-label="Navegación principal">
+      <a href="#inicio" class="flex items-center gap-2 text-white font-bold text-lg">
+        <i data-lucide="wrench" class="w-5 h-5 text-amber-400"></i>
+        Rodolfo Peña <span class="hidden sm:inline text-slate-400 font-normal">| Servicios Técnicos</span>
+      </a>
+
+      <!-- Menú escritorio -->
+      <ul class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <li><a href="#inicio" class="hover:text-amber-400 transition">Inicio</a></li>
+        <li><a href="#servicios" class="hover:text-amber-400 transition">Servicios</a></li>
+        <li><a href="#nosotros" class="hover:text-amber-400 transition">Nosotros</a></li>
+        <li>
+          <a href="#contacto" class="bg-amber-500 hover:bg-amber-400 text-slate-900 font-semibold px-4 py-2 rounded-lg transition">
+            Contacto
+          </a>
+        </li>
+      </ul>
+
+      <!-- Botón menú móvil -->
+      <button id="btn-menu" class="md:hidden text-slate-200" aria-label="Abrir menú">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </nav>
+
+    <!-- Menú móvil desplegable -->
+    <div id="menu-movil" class="hidden md:hidden bg-slate-900 border-t border-slate-800">
+      <ul class="px-4 py-3 space-y-3 text-slate-200">
+        <li><a href="#inicio" class="block py-1 hover:text-amber-400">Inicio</a></li>
+        <li><a href="#servicios" class="block py-1 hover:text-amber-400">Servicios</a></li>
+        <li><a href="#nosotros" class="block py-1 hover:text-amber-400">Nosotros</a></li>
+        <li><a href="#contacto" class="block py-1 text-amber-400 font-semibold">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ================= HERO / INICIO ================= -->
+  <section id="inicio" class="relative pt-16 min-h-screen flex items-center bg-slate-900">
+    <!-- Imagen de fondo con overlay oscuro -->
+    <div class="absolute inset-0">
+      <img
+        src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1600&q=60"
+        alt="Técnico electricista profesional trabajando en instalación eléctrica en Alcorcón"
+        class="w-full h-full object-cover opacity-25"
+        onerror="this.style.display='none'"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-900/80 to-slate-900"></div>
+    </div>
+
+    <div class="relative max-w-6xl mx-auto px-4 py-24 text-center">
+      <p class="text-amber-400 font-semibold tracking-wide uppercase text-sm mb-4">
+        Alcorcón · Madrid · Zona Sur
+      </p>
+      <h1 class="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+        Rodolfo y Equipo<br />
+        <span class="text-amber-400">Servicios Técnicos Profesionales</span><br class="hidden sm:block" />
+        en Alcorcón y Madrid
+      </h1>
+      <p class="text-slate-300 text-lg max-w-2xl mx-auto mb-10">
+        Somos un equipo de manitas y técnicos dispuestos a atender todo lo
+        relacionado con tu hogar e instalaciones técnicas: electricidad,
+        seguridad, redes y mantenimiento general.
+      </p>
+      <a
+        href="#contacto"
+        class="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold text-lg px-8 py-4 rounded-xl shadow-lg shadow-amber-500/20 transition transform hover:-translate-y-0.5"
+      >
+        <i data-lucide="clipboard-list" class="w-5 h-5"></i>
+        Solicitar Presupuesto
+      </a>
+      <p class="text-slate-400 text-sm mt-6">Presupuestos sin compromiso · Respuesta rápida</p>
+    </div>
+  </section>
+
+  <!-- ================= SERVICIOS ================= -->
+  <section id="servicios" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold text-slate-900 text-center mb-3">Nuestros Servicios</h2>
+      <p class="text-slate-500 text-center max-w-2xl mx-auto mb-12">
+        Especialistas en instalaciones técnicas y mantenimiento del hogar
+        en Alcorcón, Madrid y alrededores.
+      </p>
+
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+        <!-- Tarjeta: Electricidad -->
+        <article class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-lg transition group">
+          <div class="h-40 bg-slate-200 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=60" alt="Electricista instalando cuadro eléctrico en Alcorcón" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy" onerror="this.parentElement.classList.add('bg-blue-900'); this.style.display='none'" />
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="bg-amber-100 text-amber-600 p-2 rounded-lg"><i data-lucide="zap" class="w-5 h-5"></i></span>
+              <h3 class="font-bold text-lg text-slate-900">Electricidad</h3>
+            </div>
+            <p class="text-slate-600 text-sm">
+              Instalaciones, reparaciones, boletines eléctricos y cuadros
+              eléctricos. Trabajos certificados y seguros.
+            </p>
+          </div>
+        </article>
+
+        <!-- Tarjeta: CCTV y Seguridad -->
+        <article class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-lg transition group">
+          <div class="h-40 bg-slate-200 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=60" alt="Cámara de seguridad CCTV instalada en vivienda de Madrid" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy" onerror="this.parentElement.classList.add('bg-blue-900'); this.style.display='none'" />
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="bg-amber-100 text-amber-600 p-2 rounded-lg"><i data-lucide="cctv" class="w-5 h-5"></i></span>
+              <h3 class="font-bold text-lg text-slate-900">CCTV y Seguridad</h3>
+            </div>
+            <p class="text-slate-600 text-sm">
+              Sistemas de videovigilancia y migración de cámaras analógicas
+              a digitales. Protege tu hogar o negocio.
+            </p>
+          </div>
+        </article>
+
+        <!-- Tarjeta: Redes y Telecomunicaciones -->
+        <article class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-lg transition group">
+          <div class="h-40 bg-slate-200 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=60" alt="Armario rack de red con cableado estructurado en empresa de Madrid" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy" onerror="this.parentElement.classList.add('bg-blue-900'); this.style.display='none'" />
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="bg-amber-100 text-amber-600 p-2 rounded-lg"><i data-lucide="network" class="w-5 h-5"></i></span>
+              <h3 class="font-bold text-lg text-slate-900">Redes y Telecomunicaciones</h3>
+            </div>
+            <p class="text-slate-600 text-sm">
+              Cableado estructurado, instalación y mantenimiento de racks
+              y armarios de red para hogares y empresas.
+            </p>
+          </div>
+        </article>
+
+        <!-- Tarjeta: Manitas y Hogar -->
+        <article class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-lg transition group">
+          <div class="h-40 bg-slate-200 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=60" alt="Manitas profesional con herramientas para mantenimiento del hogar en Alcorcón" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy" onerror="this.parentElement.classList.add('bg-blue-900'); this.style.display='none'" />
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="bg-amber-100 text-amber-600 p-2 rounded-lg"><i data-lucide="hammer" class="w-5 h-5"></i></span>
+              <h3 class="font-bold text-lg text-slate-900">Manitas y Hogar</h3>
+            </div>
+            <p class="text-slate-600 text-sm">
+              Mantenimiento del hogar: reparación de persianas, montaje de
+              soportes para TV, armado de muebles y mucho más.
+            </p>
+          </div>
+        </article>
+
+        <!-- Tarjeta: Otros Servicios (espacio reservado para futuras especialidades) -->
+        <article class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-lg transition group">
+          <div class="h-40 bg-slate-200 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=800&q=60" alt="Técnico trabajando en servicios tecnológicos en Madrid" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy" onerror="this.parentElement.classList.add('bg-blue-900'); this.style.display='none'" />
+          </div>
+          <div class="p-6">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="bg-amber-100 text-amber-600 p-2 rounded-lg"><i data-lucide="plus-circle" class="w-5 h-5"></i></span>
+              <h3 class="font-bold text-lg text-slate-900">Otros Servicios</h3>
+            </div>
+            <p class="text-slate-600 text-sm">
+              ¿Necesitas algo diferente? Consúltanos: ampliamos nuestras
+              especialidades continuamente.
+            </p>
+          </div>
+        </article>
+
+        <!-- Tarjeta CTA dentro del grid -->
+        <article class="bg-slate-900 rounded-2xl overflow-hidden flex items-center justify-center p-8 text-center">
+          <div>
+            <i data-lucide="phone-call" class="w-10 h-10 text-amber-400 mx-auto mb-4"></i>
+            <h3 class="font-bold text-lg text-white mb-2">¿Hablamos?</h3>
+            <p class="text-slate-400 text-sm mb-5">Cuéntanos qué necesitas y te damos presupuesto sin compromiso.</p>
+            <a href="#contacto" class="inline-block bg-amber-500 hover:bg-amber-400 text-slate-900 font-semibold px-5 py-2.5 rounded-lg transition">
+              Contactar
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SOBRE NOSOTROS / POR QUÉ ELEGIRNOS ================= -->
+  <section id="nosotros" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid gap-10 md:grid-cols-2 items-center">
+      <div>
+        <h2 class="text-3xl font-extrabold text-slate-900 mb-4">¿Por qué elegirnos?</h2>
+        <p class="text-slate-600 mb-6">
+          Somos profesionales autónomos y un equipo autorizado con amplia
+          experiencia en instalaciones técnicas. Trabajamos principalmente
+          en Alcorcón, la zona sur de Madrid y la capital.
+        </p>
+        <ul class="space-y-4">
+          <li class="flex items-start gap-3">
+            <span class="bg-green-100 text-green-600 p-1.5 rounded-full mt-0.5"><i data-lucide="clock" class="w-4 h-4"></i></span>
+            <div><strong class="text-slate-900">Puntualidad</strong><p class="text-slate-600 text-sm">Cumplimos los plazos acordados y avisamos ante cualquier imprevisto.</p></div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="bg-green-100 text-green-600 p-1.5 rounded-full mt-0.5"><i data-lucide="badge-check" class="w-4 h-4"></i></span>
+            <div><strong class="text-slate-900">Trabajo de calidad</strong><p class="text-slate-600 text-sm">Acabados profesionales y materiales de primera en cada instalación.</p></div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="bg-green-100 text-green-600 p-1.5 rounded-full mt-0.5"><i data-lucide="file-text" class="w-4 h-4"></i></span>
+            <div><strong class="text-slate-900">Presupuesto sin compromiso</strong><p class="text-slate-600 text-sm">Estudiamos tu caso y te damos un precio claro antes de empezar.</p></div>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-slate-900 rounded-2xl p-8 text-white">
+        <h3 class="text-xl font-bold mb-6 flex items-center gap-2">
+          <i data-lucide="map-pin" class="w-5 h-5 text-amber-400"></i>
+          Zona de servicio
+        </h3>
+        <ul class="space-y-3 text-slate-300">
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> Alcorcón</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> Madrid capital</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> Zona sur: Móstoles, Leganés, Getafe, Fuenlabrada y alrededores</li>
+        </ul>
+        <div class="mt-8 pt-6 border-t border-slate-700">
+          <p class="text-slate-400 text-sm">¿Fuera de la zona? Consúltanos igualmente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACTO ================= -->
+  <section id="contacto" class="py-20 bg-slate-900">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-extrabold text-white text-center mb-3">Contacto</h2>
+      <p class="text-slate-400 text-center max-w-xl mx-auto mb-12">
+        Cuéntanos qué necesitas. Te respondemos lo antes posible con un
+        presupuesto sin compromiso.
+      </p>
+
+      <div class="grid gap-10 md:grid-cols-2">
+        <!-- Formulario: envía los datos como mensaje de WhatsApp.
+             Alternativa: conectar con Formspree (https://formspree.io)
+             cambiando el action del form por tu endpoint y quitando el JS. -->
+        <form id="form-contacto" class="bg-white rounded-2xl p-6 sm:p-8 space-y-5">
+          <div>
+            <label for="nombre" class="block text-sm font-semibold text-slate-700 mb-1">Nombre *</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre"
+              class="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-400" />
+          </div>
+          <div>
+            <label for="telefono" class="block text-sm font-semibold text-slate-700 mb-1">Teléfono *</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Ej: 600 123 456"
+              class="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-400" />
+          </div>
+          <div>
+            <label for="mensaje" class="block text-sm font-semibold text-slate-700 mb-1">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Cuéntanos qué necesitas..."
+              class="w-full border border-slate-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-amber-400"></textarea>
+          </div>
+          <button type="submit"
+            class="w-full bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold py-3 rounded-lg transition flex items-center justify-center gap-2">
+            <i data-lucide="send" class="w-5 h-5"></i>
+            Solicitar Presupuesto
+          </button>
+          <p id="form-info" class="text-center text-sm text-slate-500 hidden"></p>
+        </form>
+
+        <!-- Contacto directo -->
+        <div class="space-y-4">
+          <a href="https://wa.me/34603122600?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20un%20presupuesto"
+             target="_blank" rel="noopener"
+             class="flex items-center gap-4 bg-green-600 hover:bg-green-500 text-white rounded-2xl p-5 transition group">
+            <span class="bg-white/20 p-3 rounded-xl"><i data-lucide="message-circle" class="w-7 h-7"></i></span>
+            <div>
+              <p class="font-bold text-lg">WhatsApp</p>
+              <p class="text-green-100 text-sm">Escríbenos directamente — respuesta rápida</p>
+            </div>
+            <i data-lucide="arrow-right" class="w-5 h-5 ml-auto group-hover:translate-x-1 transition"></i>
+          </a>
+
+          <a href="tel:+34603122600"
+             class="flex items-center gap-4 bg-blue-600 hover:bg-blue-500 text-white rounded-2xl p-5 transition group">
+            <span class="bg-white/20 p-3 rounded-xl"><i data-lucide="phone" class="w-7 h-7"></i></span>
+            <div>
+              <p class="font-bold text-lg">Llamar ahora</p>
+              <p class="text-blue-100 text-sm">+34 603 12 26 00</p>
+            </div>
+            <i data-lucide="arrow-right" class="w-5 h-5 ml-auto group-hover:translate-x-1 transition"></i>
+          </a>
+
+          <a href="mailto:rodolfo@uvnet.es"
+             class="flex items-center gap-4 bg-slate-700 hover:bg-slate-600 text-white rounded-2xl p-5 transition group">
+            <span class="bg-white/20 p-3 rounded-xl"><i data-lucide="mail" class="w-7 h-7"></i></span>
+            <div>
+              <p class="font-bold text-lg">Email</p>
+              <p class="text-slate-300 text-sm">rodolfo@uvnet.es</p>
+            </div>
+            <i data-lucide="arrow-right" class="w-5 h-5 ml-auto group-hover:translate-x-1 transition"></i>
+          </a>
+
+          <div class="bg-slate-800 rounded-2xl p-5 text-slate-300 text-sm flex items-start gap-3">
+            <i data-lucide="clock" class="w-5 h-5 text-amber-400 shrink-0 mt-0.5"></i>
+            <p><strong class="text-white">Horario:</strong> Lunes a Viernes de 8:00 a 19:00. Urgencias: consúltanos por WhatsApp.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-slate-950 text-slate-400 py-8">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <p>© <span id="anio"></span> Rodolfo Peña — Servicios Técnicos · Alcorcón, Madrid</p>
+      <div class="flex items-center gap-5">
+        <a href="tel:+34603122600" class="hover:text-amber-400 flex items-center gap-1.5"><i data-lucide="phone" class="w-4 h-4"></i> 603 12 26 00</a>
+        <a href="mailto:rodolfo@uvnet.es" class="hover:text-amber-400 flex items-center gap-1.5"><i data-lucide="mail" class="w-4 h-4"></i> rodolfo@uvnet.es</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script>
+    // Renderiza los iconos Lucide
+    lucide.createIcons();
+
+    // Año actual en el footer
+    document.getElementById('anio').textContent = new Date().getFullYear();
+
+    // Menú móvil: abrir/cerrar
+    const btnMenu = document.getElementById('btn-menu');
+    const menuMovil = document.getElementById('menu-movil');
+    btnMenu.addEventListener('click', () => menuMovil.classList.toggle('hidden'));
+    // Cierra el menú al pulsar un enlace
+    menuMovil.querySelectorAll('a').forEach(a =>
+      a.addEventListener('click', () => menuMovil.classList.add('hidden'))
+    );
+
+    // Formulario: envía la solicitud como mensaje de WhatsApp.
+    // Funciona sin backend. Para usar Formspree en su lugar, crea una
+    // cuenta gratuita, pon action="https://formspree.io/f/TU_ID" y
+    // method="POST" en el formulario, y elimina este bloque.
+    document.getElementById('form-contacto').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const nombre = document.getElementById('nombre').value.trim();
+      const telefono = document.getElementById('telefono').value.trim();
+      const mensaje = document.getElementById('mensaje').value.trim();
+
+      const texto = encodeURIComponent(
+        `Nueva solicitud de presupuesto:\n\nNombre: ${nombre}\nTeléfono: ${telefono}\nMensaje: ${mensaje}`
+      );
+      window.open(`https://wa.me/34603122600?text=${texto}`, '_blank');
+
+      const info = document.getElementById('form-info');
+      info.textContent = 'Se ha abierto WhatsApp con tu mensaje listo para enviar.';
+      info.classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>
