@@ -29,8 +29,8 @@
     "@type": "LocalBusiness",
     "name": "Rodolfo Peña - Servicios Técnicos",
     "description": "Servicios técnicos profesionales: electricidad, CCTV, redes y manitas del hogar en Alcorcón y Madrid.",
-    "telephone": "+34603122600",
-    "email": "rodolfo@uvnet.es",
+    "telephone": ["+34622705288", "+34722597817"],
+    "email": "multiservicios.rodolfo@gmail.com",
     "url": "https://rodolfo.uvnet.es",
     "areaServed": ["Alcorcón", "Madrid", "Zona sur de Madrid"],
     "address": { "@type": "PostalAddress", "addressLocality": "Alcorcón", "addressRegion": "Madrid", "addressCountry": "ES" }
@@ -310,35 +310,46 @@
           <p id="form-info" class="text-center text-sm text-slate-500 hidden"></p>
         </form>
 
-        <!-- Contacto directo -->
+        <!-- Contacto directo: dos lineas, cada una con WhatsApp y llamada -->
         <div class="space-y-4">
-          <a href="https://wa.me/34603122600?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20un%20presupuesto"
-             target="_blank" rel="noopener"
-             class="flex items-center gap-4 bg-green-600 hover:bg-green-500 text-white rounded-2xl p-5 transition group">
-            <span class="bg-white/20 p-3 rounded-xl"><i data-lucide="message-circle" class="w-7 h-7"></i></span>
-            <div>
-              <p class="font-bold text-lg">WhatsApp</p>
-              <p class="text-green-100 text-sm">Escríbenos directamente — respuesta rápida</p>
+          <div class="bg-slate-800 rounded-2xl p-5">
+            <p class="font-bold text-lg text-white">+34 622 70 52 88</p>
+            <p class="text-slate-400 text-sm mb-4">WhatsApp o llamada directa</p>
+            <div class="flex gap-3">
+              <a href="https://wa.me/34622705288?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20un%20presupuesto"
+                 target="_blank" rel="noopener"
+                 class="flex-1 flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-white font-semibold py-2.5 rounded-lg transition">
+                <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp
+              </a>
+              <a href="tel:+34622705288"
+                 class="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2.5 rounded-lg transition">
+                <i data-lucide="phone" class="w-5 h-5"></i> Llamar
+              </a>
             </div>
-            <i data-lucide="arrow-right" class="w-5 h-5 ml-auto group-hover:translate-x-1 transition"></i>
-          </a>
+          </div>
 
-          <a href="tel:+34603122600"
-             class="flex items-center gap-4 bg-blue-600 hover:bg-blue-500 text-white rounded-2xl p-5 transition group">
-            <span class="bg-white/20 p-3 rounded-xl"><i data-lucide="phone" class="w-7 h-7"></i></span>
-            <div>
-              <p class="font-bold text-lg">Llamar ahora</p>
-              <p class="text-blue-100 text-sm">+34 603 12 26 00</p>
+          <div class="bg-slate-800 rounded-2xl p-5">
+            <p class="font-bold text-lg text-white">+34 722 59 78 17</p>
+            <p class="text-slate-400 text-sm mb-4">WhatsApp o llamada directa</p>
+            <div class="flex gap-3">
+              <a href="https://wa.me/34722597817?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20un%20presupuesto"
+                 target="_blank" rel="noopener"
+                 class="flex-1 flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-white font-semibold py-2.5 rounded-lg transition">
+                <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp
+              </a>
+              <a href="tel:+34722597817"
+                 class="flex-1 flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2.5 rounded-lg transition">
+                <i data-lucide="phone" class="w-5 h-5"></i> Llamar
+              </a>
             </div>
-            <i data-lucide="arrow-right" class="w-5 h-5 ml-auto group-hover:translate-x-1 transition"></i>
-          </a>
+          </div>
 
-          <a href="mailto:rodolfo@uvnet.es"
+          <a href="mailto:multiservicios.rodolfo@gmail.com"
              class="flex items-center gap-4 bg-slate-700 hover:bg-slate-600 text-white rounded-2xl p-5 transition group">
             <span class="bg-white/20 p-3 rounded-xl"><i data-lucide="mail" class="w-7 h-7"></i></span>
             <div>
               <p class="font-bold text-lg">Email</p>
-              <p class="text-slate-300 text-sm">rodolfo@uvnet.es</p>
+              <p class="text-slate-300 text-sm">multiservicios.rodolfo@gmail.com</p>
             </div>
             <i data-lucide="arrow-right" class="w-5 h-5 ml-auto group-hover:translate-x-1 transition"></i>
           </a>
@@ -357,8 +368,9 @@
     <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
       <p>© <span id="anio"></span> Rodolfo Peña — Servicios Técnicos · Alcorcón, Madrid</p>
       <div class="flex items-center gap-5">
-        <a href="tel:+34603122600" class="hover:text-amber-400 flex items-center gap-1.5"><i data-lucide="phone" class="w-4 h-4"></i> 603 12 26 00</a>
-        <a href="mailto:rodolfo@uvnet.es" class="hover:text-amber-400 flex items-center gap-1.5"><i data-lucide="mail" class="w-4 h-4"></i> rodolfo@uvnet.es</a>
+        <a href="tel:+34622705288" class="hover:text-amber-400 flex items-center gap-1.5"><i data-lucide="phone" class="w-4 h-4"></i> 622 70 52 88</a>
+        <a href="tel:+34722597817" class="hover:text-amber-400 flex items-center gap-1.5"><i data-lucide="phone" class="w-4 h-4"></i> 722 59 78 17</a>
+        <a href="mailto:multiservicios.rodolfo@gmail.com" class="hover:text-amber-400 flex items-center gap-1.5"><i data-lucide="mail" class="w-4 h-4"></i> multiservicios.rodolfo@gmail.com</a>
       </div>
     </div>
   </footer>
@@ -393,7 +405,7 @@
       const texto = encodeURIComponent(
         `Nueva solicitud de presupuesto:\n\nNombre: ${nombre}\nTeléfono: ${telefono}\nMensaje: ${mensaje}`
       );
-      window.open(`https://wa.me/34603122600?text=${texto}`, '_blank');
+      window.open(`https://wa.me/34622705288?text=${texto}`, '_blank');
 
       const info = document.getElementById('form-info');
       info.textContent = 'Se ha abierto WhatsApp con tu mensaje listo para enviar.';
