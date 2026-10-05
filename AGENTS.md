@@ -19,7 +19,7 @@
 
 - Sitio estático: un solo `index.html` — HTML5 semántico + Tailwind CDN + Lucide
 - Comentarios del código en español
-- Contacto real: `+34 622 70 52 88` y `+34 722 59 78 17` (ambos con WhatsApp), email `multiservicios.rodolfo@gmail.com`
-- Formulario envía vía WhatsApp al primer número (622 70 52 88)
+- Contacto real: `+34 622 70 62 88` y `+34 722 59 78 17` (ambos con WhatsApp), email `multiservicios.rodolfo@gmail.com`
+- Formulario envía vía WhatsApp al primer número (622 70 62 88)
 - Formulario sin backend: envía vía WhatsApp (Formspree documentado como alternativa)
 - Imágenes: Unsplash con `onerror` fallback — si alguna falla, sustituir la URL
