@@ -13,8 +13,8 @@ equipo de servicios técnicos en Alcorcón y zona sur de Madrid.
 ## Publicación
 
 - **GitHub Pages** en la rama `main` (raíz del repo)
-- **Dominio personalizado:** `rodolfo.uvnet.es` (archivo `CNAME`)
-- Requiere en el DNS de IONOS: registro `CNAME` de `rodolfo` → `uvnetwork.github.io`
+- **Dominio personalizado:** `multiservicios.uvnet.es` (archivo `CNAME`)
+- Requiere en el DNS de IONOS: registro `CNAME` de `multiservicios` → `uvnetwork.github.io`
 
 ## Editar
 

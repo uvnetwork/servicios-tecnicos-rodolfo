@@ -11,7 +11,7 @@
 ## Despliegue
 
 - GitHub Pages: rama `main`, raíz — publica automáticamente cada push
-- Dominio: `rodolfo.uvnet.es` (archivo `CNAME` + registro CNAME en IONOS → `uvnetwork.github.io`)
+- Dominio: `multiservicios.uvnet.es` (archivo `CNAME` + registro CNAME en IONOS → `uvnetwork.github.io`)
 - Activar "Enforce HTTPS" en Settings > Pages una vez verificado el dominio
 - `gh` CLI instalado en `"C:/Program Files/GitHub CLI/gh.exe"`
 
